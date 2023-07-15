@@ -1,0 +1,71 @@
+body{
+    font: 12pt arial;
+    background: rgb(0, 0, 0);
+    background-image: radial-gradient(circle, rgba(0,0,0,1)0%,
+    rgba(221, 23, 23, 0.486) 86%, rgba(108, 102, 110, 0.575) 100%);
+    
+}
+nav{
+    background: rgb(105, 52, 132);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.288) 44%,
+     rgb(54, 49, 49)100%);
+     text-align: right;
+     padding: 10px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+    padding: 10px;
+}
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #C78c19;
+    text-decoration: underline;
+}
+main{
+    padding: 120px;
+}
+h1{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+.rede-social{
+    text-align: right;
+    padding: 2px;
+}
+.rede-social img{
+    width: 30px;
+    height: 30px;
+}
+.rede-social li{
+    display: inline-block;
+    color: seashell;
+    padding: 3px;
+}
+.endereco{
+    color: aliceblue;
+}
+#btn{
+    padding: 0.5em 1.5em;
+    box-shadow: -5px 6px #693484;
+    border: 3px solid #693484;
+    color: #693484;
+    font-weight: 400;
+    font-size: 1em;
+    transition: all ease-in 0.2s;
+    border-radius: 50px;
+}
+#btn a{
+    text-align: center;
+    font-size: 28px;
+    color: #693484;
+    text-decoration: none;
+}
