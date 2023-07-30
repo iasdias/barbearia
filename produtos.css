@@ -2,13 +2,13 @@ body{
     font: 12pt arial;
     background: rgb(0, 0, 0);
     background-image: radial-gradient(circle, rgba(0,0,0,1)0%,
-    rgba(255, 0, 0, 0.493) 86%, rgba(224, 22, 35, 0.438) 100%);
+    #ff00007e 86%, #e0162370 100%);
     
 }
 nav{
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(10, 8, 10, 0.452) 44%,
-     rgb(75, 74, 74)100%);
+     rgba(75, 74, 74)100%);
      text-align: right;
      padding: 10px;
 }
@@ -60,7 +60,7 @@ nav a:hover{
     margin-top: 10px;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 3px solid #693484;
+    border: 3px solid #ffffff;
     border-radius: 10px 20px 10px 40px ;
 }
 .produtos li:hover{
@@ -82,21 +82,6 @@ nav a:hover{
     font-weight: bold;
     margin-top: 10px;
     color: aliceblue;
-}
-.produtos li{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    margin-top: 10px;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 3px solid #693484;
-    border-radius: 10px 20px 10px 40px ;
-}
-.produtos li:hover{
-    border-color: #C78c19;
 }
 .local{
     width: 940px;

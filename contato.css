@@ -2,7 +2,7 @@ body{
     font: 12pt arial;
     background: rgb(0, 0, 0);
     background-image: radial-gradient(circle, rgba(0,0,0,1)0%,
-    rgba(221, 23, 23, 0.486) 86%, rgba(108, 102, 110, 0.575) 100%);
+    #ff00007e 86%, #e0162370 100%);
     
 }
 nav{
@@ -55,8 +55,8 @@ h1{
 }
 #btn{
     padding: 0.5em 1.5em;
-    box-shadow: -5px 6px #693484;
-    border: 3px solid #693484;
+    box-shadow: -5px 6px #bb92de;
+    border: 3px solid #ba7cd9;
     color: #693484;
     font-weight: 400;
     font-size: 1em;
